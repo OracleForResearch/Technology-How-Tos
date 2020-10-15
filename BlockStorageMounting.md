@@ -8,7 +8,7 @@ and setting up a cluster file system. The steps are illustrated below.
 1.  Create a set of compute instances (preferably free tier to save on
     cost during testing)
 
-![](media/image2.png){width="6.02in" height="1.394633639545057in"}
+![](images/image2.png)
 
 2.  Create a block volume taking the default options (Menu Block storage
     Block volumes)
@@ -20,14 +20,13 @@ and setting up a cluster file system. The steps are illustrated below.
 Mount the volume with Read/Write -- Shareable and select a device path
 (i,g /dev/oracleoci/oraclevdb)
 
-![](media/image3.png){width="5.34in" height="4.401544181977253in"}
+![](images/image3.png)
 
 4.  Once the block volume is attached to all the instances, login to the
     instances and mount the volume to the instances from Linux as shown
     below
 
-![](media/image4.png){width="6.42799978127734in"
-height="1.0778805774278215in"}
+![](images/image4.png)
 
 5.  Get the iSCSI commands for connecting (example shown) and run it in
     your Linux instance as shown below
@@ -44,8 +43,7 @@ sudo iscsiadm -m node -T
 iqn.2015-12.com.oracleiaas:afb7be8a-ea20-4e33-88ab-1be5033c36db -p
 169.254.2.2:3260 --l
 
-![](media/image5.png){width="7.20400043744532in"
-height="0.9718733595800525in"}
+![](images/image5.png)
 
 6.  Check if the iSCSI disk is mounted -- *sudo fdisk --l* You should
     get message similar to the following
@@ -78,8 +76,7 @@ I/O size (minimum/optimal): 4096 bytes / 1048576 bytes
 
 *df --k*
 
-![](media/image6.png){width="5.59200021872266in"
-height="1.9379910323709537in"}
+![](images/image6.png)
 
 The disk /oradiskvdb should be mounted as shown above
 
@@ -93,7 +90,7 @@ The disk /oradiskvdb should be mounted as shown above
 
 10. It is recommended to create xfs filesystem (instead of ext3).
 
-11. ![](media/image1.jpeg)In general, Ext3 or Ext4 is better if an
+11. ![](images/image1.jpeg)In general, Ext3 or Ext4 is better if an
     application uses a single read/write thread and small files, while
     XFS shines when an application uses multiple read/write threads and
     bigger files. [Link
