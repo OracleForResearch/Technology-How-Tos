@@ -1,4 +1,4 @@
-# Technical Blogs
+# Technical How to's
 
 This repository hosts the technical blogs for Oracle for Research.
 
