@@ -12,13 +12,9 @@ and setting up a cluster file system. The steps are illustrated below.
 
 2.  Create a block volume taking the default options (Menu Block storage
     Block volumes)
+3.  Attach the block volume to the instances (Menu->Compute Instances->Instance Details->Attached block volume).
 
-3.  Attach the block volume to the instances
-
-(Menu Compute Instances Instance Details Attached block volume).
-
-Mount the volume with Read/Write -- Shareable and select a device path
-(i,g /dev/oracleoci/oraclevdb)
+Mount the volume with Read/Write -- Shareable and select a device path (i,e /dev/oracleoci/oraclevdb)
 
 ![](images/image3.png)
 
@@ -31,17 +27,10 @@ Mount the volume with Read/Write -- Shareable and select a device path
 5.  Get the iSCSI commands for connecting (example shown) and run it in
     your Linux instance as shown below
 
-sudo iscsiadm -m node -o new -T
-iqn.2015-12.com.oracleiaas:afb7be8a-ea20-4e33-88ab-1be5033c36db -p
-169.254.2.2:3260
+sudo iscsiadm -m node -o new -T iqn.2015-12.com.oracleiaas:afb7be8a-ea20-4e33-88ab-1be5033c36db -p 169.254.2.2:3260
+sudo iscsiadm -m node -o update -T iqn.2015-12.com.oracleiaas:afb7be8a-ea20-4e33-88ab-1be5033c36db -n node.startup -v automatic
 
-sudo iscsiadm -m node -o update -T
-iqn.2015-12.com.oracleiaas:afb7be8a-ea20-4e33-88ab-1be5033c36db -n
-node.startup -v automatic
-
-sudo iscsiadm -m node -T
-iqn.2015-12.com.oracleiaas:afb7be8a-ea20-4e33-88ab-1be5033c36db -p
-169.254.2.2:3260 --l
+sudo iscsiadm -m node -T iqn.2015-12.com.oracleiaas:afb7be8a-ea20-4e33-88ab-1be5033c36db -p 169.254.2.2:3260 --l
 
 ![](images/image5.png)
 
@@ -49,16 +38,12 @@ iqn.2015-12.com.oracleiaas:afb7be8a-ea20-4e33-88ab-1be5033c36db -p
     get message similar to the following
 
 Disk /dev/sdb: 1099.5 GB, 1099511627776 bytes, 2147483648 sectors
-
 Units = sectors of 1 \* 512 = 512 bytes
-
 Sector size (logical/physical): 512 bytes / 4096 bytes
-
 I/O size (minimum/optimal): 4096 bytes / 1048576 bytes
 
 7.  Update /etc/fstab as follows -- *sudo vi /etc/fstab* and add the
     following lines --
-
 > /dev/oracleoci/oraclevdb /mnt/vol1 xfs defaults,\_netdev,nofail 0 2
 >
 > /dev/oracleoci/oraclevdc /mnt/vol2 xfs defaults,\_netdev,nofail 0 2
@@ -69,19 +54,14 @@ I/O size (minimum/optimal): 4096 bytes / 1048576 bytes
     out if it correctly mounted
 
 *sudo mkdir /oradiskvdb*
-
 *mount /dev/oracleoci/oraclevdb /oradiskvdb*
-
 *sudo chmod 767 /oradiskvdb*
-
 *df --k*
 
 ![](images/image6.png)
 
 The disk /oradiskvdb should be mounted as shown above
-
 *cd /oradiskvdb*
-
 *touch testfile \#Creating a testfile*
 
 9.  The file-system should be mounted and ready for read-write
@@ -90,7 +70,7 @@ The disk /oradiskvdb should be mounted as shown above
 
 10. It is recommended to create xfs filesystem (instead of ext3).
 
-11. ![](images/image1.jpeg)In general, Ext3 or Ext4 is better if an
+11. ![](images/image1.png)In general, Ext3 or Ext4 is better if an
     application uses a single read/write thread and small files, while
     XFS shines when an application uses multiple read/write threads and
     bigger files. [Link
