@@ -7,33 +7,22 @@ and setting up a cluster file system. The steps are illustrated below.
 
 1.  Create a set of compute instances (preferably free tier to save on
     cost during testing)
-
 ![](images/image2.png)
-
 2.  Create a block volume taking the default options (Menu Block storage
     Block volumes)
 3.  Attach the block volume to the instances (Menu->Compute Instances->Instance Details->Attached block volume).
-
 Mount the volume with Read/Write -- Shareable and select a device path (i,e /dev/oracleoci/oraclevdb)
-
 ![](images/image3.png)
-
 4.  Once the block volume is attached to all the instances, login to the
     instances and mount the volume to the instances from Linux as shown
     below
-
 ![](images/image4.png)
-
 5.  Get the iSCSI commands for connecting (example shown) and run it in
     your Linux instance as shown below
-
 sudo iscsiadm -m node -o new -T iqn.2015-12.com.oracleiaas:afb7be8a-ea20-4e33-88ab-1be5033c36db -p 169.254.2.2:3260
 sudo iscsiadm -m node -o update -T iqn.2015-12.com.oracleiaas:afb7be8a-ea20-4e33-88ab-1be5033c36db -n node.startup -v automatic
-
 sudo iscsiadm -m node -T iqn.2015-12.com.oracleiaas:afb7be8a-ea20-4e33-88ab-1be5033c36db -p 169.254.2.2:3260 --l
-
 ![](images/image5.png)
-
 6.  Check if the iSCSI disk is mounted -- *sudo fdisk --l* You should
     get message similar to the following
 
@@ -67,16 +56,14 @@ The disk /oradiskvdb should be mounted as shown above
 9.  The file-system should be mounted and ready for read-write
     operations if the above file creation test succeeds. The files
     created from other instances should be visible as well
-
 10. It is recommended to create xfs filesystem (instead of ext3).
-
 11. ![](images/image1.png)In general, Ext3 or Ext4 is better if an
     application uses a single read/write thread and small files, while
     XFS shines when an application uses multiple read/write threads and
     bigger files. [Link
     here](https://access.redhat.com/articles/3129891#:~:text=In%20general%2C%20Ext3%20or%20Ext4,write%20threads%20and%20bigger%20files.).
 
-References --
+#### References
 
 1.  [Setting fstab options for block volumes using consistent device
     paths](https://docs.cloud.oracle.com/en-us/iaas/Content/Block/References/fstaboptionsconsistentdevicepaths.htm)
