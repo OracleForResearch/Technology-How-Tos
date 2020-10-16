@@ -1,4 +1,4 @@
-Important Considerations for setting up an Oracle Cloud Instance
+## Important Considerations for setting up an Oracle Cloud Instance
 
 By Rajib Ghosh, Senior Solutions Architect, Oracle for Research
 
@@ -36,8 +36,7 @@ provides the following types of images - 
     devices](https://archlinuxarm.org/#:~:text=Our%20collaboration%20with%20Arch%20Linux,and%20responsibility%20over%20the%20system.)
     is available through Oracle Linux 8 image.
 
-![9d0ace8d437771d0ab7defbb12129a9d](media/image1.jpeg){width="0.2076388888888889in"
-height="0.2076388888888889in"} Choose pre-built platform images while
+**TIP:**  Choose pre-built platform images while
 starting your project. If you software configurations are not closely
 tied to a Linux distribution like Centos or Ubuntu, we recommend using
 Oracle Linux. This has certain maintenance, security and compatibility
@@ -60,18 +59,14 @@ out.
 
     1.  [AI (All-in-One) GPU Image for Data
         Science](https://console.us-ashburn-1.oraclecloud.com/marketplace/application/78643201/usageInformation)
-
     2.  [Genome analysis
         toolkit](https://console.us-ashburn-1.oraclecloud.com/marketplace/application/81390072/usageInformation)
-
     3.  [Julia AI/HPC GPU
         Image](https://console.us-ashburn-1.oraclecloud.com/marketplace/application/79537675/usageInformation)
-
     4.  [NVIDIA images and NVIDIA GPU
         image](https://console.us-ashburn-1.oraclecloud.com/marketplace/application/54854361/usageInformation)
 
-![9d0ace8d437771d0ab7defbb12129a9d](media/image1.jpeg){width="0.2076388888888889in"
-height="0.2076388888888889in"} You may use the following steps to
+**TIP:**  You may use the following steps to
 determine whether you need to use an Oracle provided image or build your
 own from scratch.
 
@@ -103,29 +98,22 @@ c.  Consult with Oracle for Research or Oracle cloud technical team for
         Cluster](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/67628143)
         and [Oracle HPC File
         system](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/75560175)
-
     2.  [NVIDIA GPU Cloud machine
         image](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/54854361)
-
     3.  [Oracle Linux 7 Cluster Networking
         Image](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/63394796)
-
     4.  Molecular dynamics images ( [NAMD
         runbook](https://github.com/oci-hpc/oci-hpc-runbook-namd) and
         [GROMACS
         runbooks](https://github.com/oci-hpc/oci-hpc-runbook-gromacs)) 
-
     5.  [Oracle marketplace slurm image (HPC + Slurm
         combo)](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/67628143)
-
     6.  [Oracle cloud slurm
         image](https://github.com/oracle-quickstart/oci-slurm)
-
     7.  [BeeGFS on
         demand](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/81525078)
 
-![C:\\9d0ace8d437771d0ab7defbb12129a9d](media/image1.jpeg){width="0.20902777777777778in"
-height="0.20902777777777778in"} Consider testing with these images if
+**TIP:**  Consider testing with these images if
 you are looking to build [cluster networking
 infrastructure](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/73328167)
 using Lustre or BeeGFS
@@ -147,8 +135,7 @@ using Lustre or BeeGFS
     instance as well. Custom images provide a point-in-time snapshot of
     an instance and can be versioned.
 
-![9d0ace8d437771d0ab7defbb12129a9d](media/image1.jpeg){width="0.2076388888888889in"
-height="0.2076388888888889in"} Use custom images to build the same
+**TIP:**  Use custom images to build the same
 instance in another availability domain. Export the image to object
 store and download it to move it out of Oracle cloud. You can also [move
 attached block
@@ -171,8 +158,7 @@ as well using between OCI tenancies and regions
     custom
     images](https://docs.cloud.oracle.com/en-us/iaas/Content/Compute/Tasks/managingcustomimages.htm)
 
-![9d0ace8d437771d0ab7defbb12129a9d](media/image1.jpeg){width="0.2076388888888889in"
-height="0.2076388888888889in"}Use Image OCID feature to manage and share
+**TIP:** Use Image OCID feature to manage and share
 resources in an environment with large number of cloud images with many
 researchers working simultaneously.
 
@@ -535,8 +521,7 @@ to start / terminate instances when not in use. You may refer to
 instances](https://docs.cloud.oracle.com/en-us/iaas/Content/Compute/Tasks/restartinginstance.htm#resource-billing)
 for more details as well.
 
-![9d0ace8d437771d0ab7defbb12129a9d](media/image1.jpeg){width="0.2076388888888889in"
-height="0.2076388888888889in"}Some of the important tips are described
+**TIP:** Some of the important tips are described
 below:
 
 1.  [Start with low-cost and scale to high-end shapes]{.ul} -- Standard
@@ -547,7 +532,6 @@ below:
     > shapes must be terminated to stop billing. It is recommended to
     > get a benchmark of your workload by starting with a VM and slowly
     > moving to expensive BM shapes.
-
 2.  [Start with low data volume and scale up]{.ul}-- Start with a lower
     > data volume to get a sense of CPU and memory utilization and scale
     > the data to find the optimal threshold of CPU and RAM for that
@@ -568,7 +552,6 @@ below:
     > [mdtest](https://wiki.lustre.org/MDTest), IO500 or
     > [nvidia-smi](https://developer.nvidia.com/nvidia-system-management-interface)
     > can be used for this purpose.
-
 4.  [Instance creation and termination automation]{.ul} -- The rule of
     > thumb is to create an instance just before your computation and
     > terminate them after your run. You may also do this manually from
@@ -587,15 +570,11 @@ a.  [OCI CLI Getting
     started](https://oracle.github.io/learning-library/oci-library/DevOps/OCI_CLI/OCI_CLI_HOL.html#practice-5-use-query-to-find-oracle-linux-image-id,-then-launch-a-compute-instance)
     and
     [documentation](https://docs.cloud.oracle.com/en-us/iaas/Content/API/Concepts/cliconcepts.htm)
-
 b.  [OCI CLI github site](https://github.com/oracle/oci-cli)
-
 c.  [OCI CLI command
     reference](https://docs.cloud.oracle.com/en-us/iaas/tools/oci-cli/2.12.11/oci_cli_docs/)
-
 d.  [OCI terraform provider
     examples](https://github.com/terraform-providers/terraform-provider-oci/tree/master/examples)
-
 e.  [Cluster in the
     cloud](https://cluster-in-the-cloud.readthedocs.io/en/latest/)
 
