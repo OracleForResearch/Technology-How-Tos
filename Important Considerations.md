@@ -485,7 +485,7 @@ cloud on that port. However, you may consult your on-campus network
 administrator to set this your on-campus network CIDR values to restrict
 access to your cloud VM to university network only.
 
-![](images/image-7.png){width="6.5in" height="3.5444444444444443in"}
+![](images/image7.png)
 
 However, you may also secure your VM in a self-service manner without
 the help of your network administrator. However, it is a bit involved
@@ -502,9 +502,8 @@ shown below. This security rule will only allow RDP (remote desktop)
 access from the Oracle cloud free tier VM as opposed to anywhere in the
 internet
 
-![](images/image-8.png){width="5.25in" height="3.5416666666666665in"}
-
-![](images/image-9.png){width="6.5in" height="0.5638888888888889in"}
+![](images/image8.png)
+![](images/image9.png)
 
 1.  Managing usage and costs - 
 
