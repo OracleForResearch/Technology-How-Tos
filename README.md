@@ -6,5 +6,5 @@ This repository hosts the technical blogs for Oracle for Research.
 2. [Moving data to an Oracle cloud Instance](https://github.com/rghosh9/OFRTechnicalPublications/blob/main/Quick%20Oracle%20Cloud%20links%20for%20researchers.docx)
 3. [Important considerations for setting up and Oracle cloud instance](https://github.com/rghosh9/OFRTechnicalPublications/blob/main/Quick%20Oracle%20Cloud%20links%20for%20researchers.docx)
 4. [Important links for Researchers](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/Important%20Links.md)
-5. [Mounting shared block storage across clusters](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/Mounting%20shared%20block%20storage.md)
+5. [Mounting shared block storage in a cluster](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/Mounting%20shared%20block%20storage.md)
 
