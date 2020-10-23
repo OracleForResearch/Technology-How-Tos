@@ -12,5 +12,8 @@ This repository hosts the technical blogs for Oracle for Research.
 1. [Standard Architecture](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/StandardArchitecture.md)
 2. [Cloud Bursting Architecture]()
 
+### Image Repositories
+1. [Image Repositories](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/TechnicalRepositories.md)
+
 ### Useful Links
 1. [Important links for Researchers](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/Important%20Links.md)
