@@ -18,6 +18,7 @@ chmod go-rwx ~/.oci/oci_api_key.pem               # Change permission on the key
 openssl rsa -pubout -in ~/.oci/oci_api_key.pem -out ~/.oci/oci_api_key_public.pem             # Create a public key
 cat ~/.oci/oci_api_key_public.pem     # cat the public key and copy it to clipboard 
 </code></pre>
+![](images/OCICLI-1.png)
 
 4.	Get the key fingerprint 
 <pre><code>openssl rsa -pubout -outform DER -in ~/.oci/oci_api_key.pem | openssl md5 -c</code></pre>
