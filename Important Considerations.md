@@ -1,5 +1,7 @@
 ## Important Considerations for setting up an Oracle Cloud Instance
 
+By Rajib Ghosh, Senior Solutions Architect, Oracle for Research
+
 Understanding the basics of setting up an Oracle Cloud tenancy and
 instance can help researchers and the technology specialists get running
 quickly. However, taking a moment to understand some additional details
