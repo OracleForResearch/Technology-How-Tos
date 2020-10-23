@@ -1,5 +1,7 @@
 ## Mounting block volumes across multiple compute instances
 
+By Rajib Ghosh, Senior Solutions Architect, Oracle for Research
+
 This document outlines the basic and the necessary steps to mount block
 volumes across multiple instances. It is recommended you test the option
 by creating multiple free tier instances, cross mounting a block volume
