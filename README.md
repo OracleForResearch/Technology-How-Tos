@@ -17,7 +17,7 @@ This repository hosts the technical blogs for Oracle for Research.
 4. [Choosing the right data science platform (upcoming)]
 
 ### Performance and benchmarks 
-1. [Benchmarks with OCI shapes (upcoming)]
+1. [Benchmarks with OCI shapes](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/BenchmarkingWithShapes.md)
 2. [NVIDIA A100 Performance on Oracle cloud](https://blogs.oracle.com/cloud-infrastructure/nvidia-a100-bare-metal-performance-in-oracle-cloud-infrastructure)
 3. [HPC Performance on Intel on Oracle Cloud](https://blogs.oracle.com/cloud-infrastructure/optimize-your-high-performance-computing-with-oracle-cloud-on-intel)
 
