@@ -8,6 +8,10 @@ This document outlines the basic and the necessary steps to set up the OCI comma
 * Oracle Linux 7.8 / Oracle Linux 8 platform image
 * Successful SSH to the compute instance
 
+### Workflow
+![](images/OCICLI-2.png)
+
+### Installing OCI CLI
 1.	Spin up a compute instance with Oracle 7.8 / Oracle 8 Linux image with an Always Free Tier shape
 2.	Follow the link to perform a yum install of OCI CLI as shown below based on the image you selected
 https://docs.cloud.oracle.com/en-us/iaas/Content/API/SDKDocs/cliinstall.htm 
