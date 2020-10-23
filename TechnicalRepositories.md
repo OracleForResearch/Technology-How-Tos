@@ -1,4 +1,4 @@
-### Technical Repositories
+### Image and Application Repositories
 
 Follow these links for technical resources to get up and running.
 
