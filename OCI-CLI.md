@@ -9,7 +9,7 @@ This document outlines the basic and the necessary steps to set up the OCI comma
 * Successful SSH to the compute instance
 
 ### Workflow
-![](images/OCICLI-2.png)
+![](images/OCICLI-2.PNG)
 
 ### Installing OCI CLI
 1.	Spin up a compute instance with Oracle 7.8 / Oracle 8 Linux image with an Always Free Tier shape
