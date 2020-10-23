@@ -12,7 +12,7 @@ This repository hosts the technical blogs for Oracle for Research.
 1. [Standard Architecture](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/StandardArchitecture.md)
 2. [Cloud Bursting Architecture](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/CloudBursting.md)
 3. [Automation setup through Terraform Stacks](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/AutomationSetup.md)
-4. [Choosing PaaS Service vs IaaS Images (upcoming)]
+4. [Choosing the right data science platform (upcoming)]
 
 ### Performance and benchmarks 
 1. [Benchmarks with OCI shapes (upcoming)]
