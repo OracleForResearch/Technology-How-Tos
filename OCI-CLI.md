@@ -76,7 +76,7 @@ You may be able to use an Oracle for Research custom image to standup a gateway 
 
 1.	If you are familiar with Linux bash scripts or if not learn the basics of Linux bash shell script
 2.	You may use any Linux tutorial to learn shell scripting
-3.	Refer to the OCI CLI command line documentation to try and test out OCI CLI 
+3.	Refer to the [OCI CLI command line documentation](https://docs.cloud.oracle.com/en-us/iaas/tools/oci-cli/2.14.1/oci_cli_docs/) to try and test out OCI CLI 
 4.	Use OCI CLI from the Research-Gatway VM to start / stop your instances / cluster
 5.	Use operating system tools or OCI telemetry to remotely monitor cluster usage
 6.	Shutdown VM / instance pool based on usage characteristics
