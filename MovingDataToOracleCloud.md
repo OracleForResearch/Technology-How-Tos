@@ -9,7 +9,7 @@ In this blog, we explain how to move data from on-campus instances or a local la
 * Understanding Storage options in Oracle cloud
 * Copying data to Oracle cloud
 * Data management considerations
-
+![](images/MoveData-1.png)
 
 #### Identifying the data source and deciding to move data
 * Identifying the location and volume of the data you need to move is necessary before you decide to migrate to Oracle cloud. Data can exist in one place or be distributed between your on-campus machines, researcher laptops, other clouds, databases or public sites. 
