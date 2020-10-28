@@ -20,6 +20,7 @@ This repository hosts the technical blogs for Oracle for Research.
 1. [Benchmarks with OCI shapes](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/BenchmarkingWithShapes.md)
 2. [NVIDIA A100 Performance on Oracle cloud](https://blogs.oracle.com/cloud-infrastructure/nvidia-a100-bare-metal-performance-in-oracle-cloud-infrastructure)
 3. [HPC Performance on Intel on Oracle Cloud](https://blogs.oracle.com/cloud-infrastructure/optimize-your-high-performance-computing-with-oracle-cloud-on-intel)
+4. [Monitoring Tools (upcoming)](https://github.com/rghosh9/Technical-HowTo-s/blob/main/MonitoringTools.md)
 
 ### Image Repositories
 1. [Image Repositories](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/TechnicalRepositories.md)
