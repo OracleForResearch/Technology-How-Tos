@@ -1,4 +1,4 @@
-## Setting up Org structure in Oracle cloud
+## Setting up user configuration for the organization in Oracle cloud
 
 In this article, we discuss how to set up a simple organization structure with OCI Identity services with multiple administrators and multiple groups. Also included are the common methods of ongoing management of users and groups after the initial setup is complete.
 
@@ -24,6 +24,8 @@ The key access components are described below.
 The key recommendations for org structure management are:
 1. Manage access to resources with policies
 2. Assign policies to one or multiple groups requiring access to resources 
+
+The diagram below shows the workflow steps for creating the user configuration. The link [Setting up users in Oracle cloud](https://docs.cloud.oracle.com/en-us/iaas/Content/GSG/Tasks/addingusers.htm) can be used along with the diagram below to implement the solution.
 ![](images/OrgStruc-2.PNG)
 
 ### Accessing shared resources 
