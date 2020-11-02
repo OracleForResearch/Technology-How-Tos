@@ -7,8 +7,7 @@ In this article, we discuss how to set up a simple organization structure with O
 Shown below is a common Org setup that are applicable to most organizations. Key points are: 
 * Two tenancy administrator having the same level of access
 * Multiple groups - each able to create and manage objects they own
-
-
+![](images/OrgStruc-1.PNG)
 
 ### Resource access components
 
@@ -25,6 +24,7 @@ The key access components are described below.
 The key recommendations for org structure management are:
 1. Manage access to resources with policies
 2. Assign policies to one or multiple groups requiring access to resources 
+![](images/OrgStruc-2.PNG)
 
 ### Accessing shared resources 
 
