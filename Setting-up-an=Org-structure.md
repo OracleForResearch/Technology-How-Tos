@@ -42,6 +42,25 @@ The diagram below shows the workflow steps for creating the user configuration. 
    * Any compute instance can be accessed through SSH as long as you have the private key and the public IP for the instance.
    * Any databases can be accessed if you have the database credentials available
 
+### Object store buckets and access
+
+Following are the most common use-cases for managing access to Object store buckets 
+1. Setup private buckets for the group
+   * Create the bucket logging as the administrator managing the group in the compartment
+   * This ensures object store buckets be seen by the users belong the group or having access to the compartment
+   * You can change bucket visibility to public or private. 
+   * Public buckets give direct access to bucket, its contents and metadata and should be used carefully
+2. Setup shared buckets
+   * Create the bucket as part of the shared compartment
+   * Either the PI admin or anyone having create resource privilege in the shared compartment can create the bucket
+   * You may set up pre-authenticated requests at bucket level to give access to other infrequent users / groups needing access to the shared bucket objects
+3. Third party tools access to object store buckets
+   * [Create Customer API keys from the console](https://docs.cloud.oracle.com/en-us/iaas/Content/Identity/Tasks/managingcredentials.htm#To4)
+   * For details, please refer to 
+     * [Amazon S3 compatibility API](https://docs.cloud.oracle.com/en-us/iaas/Content/Object/Tasks/s3compatibleapi.htm)
+     * [Designating compartments with SWIFT API](https://docs.cloud.oracle.com/en-us/iaas/Content/Object/Tasks/designatingcompartments.htm)
+   * You may test your implementation with [rclone](https://rclone.org/)
+
 ### Adding and deleting users 
 
 It is recommended to follow the guidelines below for a streamlined managed environment.
