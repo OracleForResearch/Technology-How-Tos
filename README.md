@@ -25,6 +25,7 @@ This repository hosts the technical blogs for Oracle for Research.
 
 ### Image Repositories
 1. [Image Repositories](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/TechnicalRepositories.md)
+2. [Oracle for Research sandbox images](https://github.com/OracleForResearch/Research-Image-Sandbox)
 2. [Images - in the works (upcoming)]
 
 ### Useful Links
