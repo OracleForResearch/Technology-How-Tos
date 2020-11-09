@@ -1,4 +1,4 @@
-## Setting up user configuration for the organization in Oracle cloud
+## Setting up User configuration and organization structure
 
 In this article, we discuss how to set up a simple organization structure with OCI Identity services with multiple administrators and multiple groups. Also included are the common methods of ongoing management of users and groups after the initial setup is complete.
 
