@@ -30,5 +30,7 @@ This repository hosts the technical blogs for Oracle for Research.
 
 ### Useful Links
 1. [Important links for Researchers](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/Important%20Links.md)
-2. [Oracle for Research Technology talks](https://github.com/OracleForResearch/Technology-Talk)
+
+### Oracle for Research Technology Talks
+2. [Technology talks](https://github.com/OracleForResearch/Technology-Talk)
 
