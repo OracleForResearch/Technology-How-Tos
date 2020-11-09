@@ -8,7 +8,7 @@ This repository hosts the technical blogs for Oracle for Research.
 3. [Important considerations for setting up and Oracle cloud instance](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/Important%20Considerations.md)
 5. [Mounting shared block storage in a cluster](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/Mounting%20shared%20block%20storage.md)
 6. [SSH options for cloud access (upcoming)]
-7. [Setting up Organization structure in Oracle cloud](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/Setting-up-an=Org-structure.md)
+7. [Setting up User Configuration and Organization structure](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/Setting-up-an=Org-structure.md)
 7. [Identity federation and options (upcoming)]
 
 ### Architecture
