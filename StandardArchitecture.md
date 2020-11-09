@@ -63,3 +63,8 @@ This is actually quite simple and can be quickly done with the help of Networkin
 7. Create your software installs in custom images
 8. Use Terraform destroy to terminate the environment
 9. Use Terraform plan / apply to recreate the environment
+
+### Reference 
+Please refer to the following for build implementation details (below) or OCI documentation
+1. [Technology Talk](https://www.youtube.com/watch?v=kjy2XtAjJ-E&feature=youtu.be)
+2. [Technology Talk slides](https://github.com/OracleForResearch/Technology-Talk/blob/main/OFRTechnologyTalk-10232020.pptx)
