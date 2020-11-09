@@ -51,3 +51,15 @@ Key advantages include
 1. Private subnet insulates your computation VM and data
 2. Access only through a jump box / secure gateway VM
 3. NAT access provides direct internet access for code / patch downloads
+
+### Building the standard Infrastructure
+This is actually quite simple and can be quickly done with the help of Networking --> Create VCN wizard. Follow the steps to create the above architecture
+1. Create a compartment (Menu --> Identity --> Compartments)
+2. Create a new Virtual cloud network (VCN) using the VCN wizard (Menu --> Networking --> Create VCN (using wizard)
+3. Create a free tier compute instance in the public subnet in the VCN
+4. Create your compute cluster in the private subnet of the VCN
+5. You may use OCI instance scaling to implement your cluster or attached block storages
+6. Reverse-engineer your implementation for the compartment into a Resource stack 
+7. Create your software installs in custom images
+8. Use Terraform destroy to terminate the environment
+9. Use Terraform plan / apply to recreate the environment
