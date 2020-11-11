@@ -82,3 +82,31 @@ You may be able to use an Oracle for Research custom image to standup a gateway 
 6.	Shutdown VM / instance pool based on usage characteristics
 
 NOTE : Oracle for research would have an enhanced version of the image with start / stop scripts and instructions. However, OCI generic direction being with Terraform scripting is encouraged.
+
+### Reference links
+**Github and documentation**
+1. [OCI- CLI Documentation](https://docs.cloud.oracle.com/en-us/iaas/tools/oci-cli/2.14.4/oci_cli_docs/cmdref/resource-manager.html)
+2. [OCI Documentation](https://docs.cloud.oracle.com/en-us/iaas/Content/API/Concepts/cliconcepts.htm)
+3. [Quickest way to install / configure OCI-CLI (support access required)](https://support.oracle.com/epmos/faces/DocumentDisplay?_afrLoop=210726212199712&parent=EXTERNAL_SEARCH&sourceId=BULLETIN&id=2432759.1&_afrWindowMode=0&_adf.ctrl-state=z1syd1md1_4)
+4. [OCI-CLI scripts collections and examples](https://www.oc-blog.com/oci-scripts-and-example-code/)
+* OCI reporting tool and extensions
+* Usage and cost reporting
+* Auto-scaling 
+* Universal credit balance & usage consumption
+* Using Telemetry service with Grafana 
+* Nightly stop script
+* Audit script with OCI CLI Audit logs 
+* Autonomous databases, DB systems with OCI-CLI
+3. Oracle for Research OCI-CLI page
+4. Oracle OCI-CLI github page 
+**OCI-CLI blogs** 
+1. [Introduction to CLI, API and OCI Data integration](https://blogs.oracle.com/dataintegration/introduction-to-cli%2c-api-for-oracle-cloud-infrastructure-oci-data-integration)
+2. [Easy provisioning with OCI-CLI](https://blogs.oracle.com/linux/easy-provisioning-of-cloud-instances-on-oracle-cloud-infrastructure-with-the-oci-cli)
+3. [Using OCI-CLI with Kubernetes cron-jobs](https://blogs.oracle.com/cloudnative/scheduling-oci-cli-commands-to-run-via-a-kubernetes-cronjob)
+4. [Quickly run OCI-CLI with Docker container](https://blogs.oracle.com/developers/get-going-quickly-with-command-line-interface-for-oracle-cloud-infrastructure-using-docker-container)
+4. [OCI-CLI with a federation from a Docker container](https://www.ateam-oracle.com/using-the-oci-cli-with-a-federated-user-from-a-docker-container-or-over-ssh)
+5. [Deploying a microservice to Oracle cloud with Github actions](https://blogs.oracle.com/developers/adventures-in-cicd-4-deploying-a-microservice-to-the-oracle-cloud-with-github-actions-oci-cli-edition)
+6. [New packages for OCI-CLI/GlusterFS , Terraform](https://blogs.oracle.com/wim/new-packages-added-to-oracle-linux-oci-sdkcli%2c-more-epel-packages%2c-glusterfs-server%2c-terraform%2c)
+8. [Automated CLI scripts to scale autonomous databases](https://www.ateam-oracle.com/automated-cli-scripts-to-scale-autonomous-database-cpus)
+9. [Using CLI with Restricted object store buckets](https://blogs.oracle.com/cloud-infrastructure/use-the-cli-with-restricted-object-storage-buckets)
+
