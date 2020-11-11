@@ -11,11 +11,12 @@ This repository hosts the technical blogs for Oracle for Research.
 7. [Setting up User Configuration and Organization structure](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/Setting-up-an=Org-structure.md)
 7. [Identity federation and options (upcoming)]
 
-### Architecture
+### Architecture and automation
 1. [Standard Architecture](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/StandardArchitecture.md)
 2. [Cloud Bursting Architecture](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/CloudBursting.md)
 3. [Automation setup through Terraform Stacks](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/AutomationSetup.md)
-4. [Choosing the right data science platform (upcoming)]
+4. [Automation with OCI Command line interface](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/OCI-CLI.md)
+5. [Choosing the right data science platform (upcoming)]
 
 ### Performance and benchmarks 
 1. [Benchmarks with OCI shapes](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/BenchmarkingWithShapes.md)
