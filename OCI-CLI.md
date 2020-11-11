@@ -97,8 +97,8 @@ NOTE : Oracle for research would have an enhanced version of the image with star
 * Nightly stop script
 * Audit script with OCI CLI Audit logs 
 * Autonomous databases, DB systems with OCI-CLI
-3. Oracle for Research OCI-CLI page
-4. Oracle OCI-CLI github page 
+3. [Oracle for Research OCI-CLI page](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/OCI-CLI.md)
+4. [Oracle OCI-CLI github page](https://github.com/oracle/oci-cli) 
 **OCI-CLI blogs** 
 1. [Introduction to CLI, API and OCI Data integration](https://blogs.oracle.com/dataintegration/introduction-to-cli%2c-api-for-oracle-cloud-infrastructure-oci-data-integration)
 2. [Easy provisioning with OCI-CLI](https://blogs.oracle.com/linux/easy-provisioning-of-cloud-instances-on-oracle-cloud-infrastructure-with-the-oci-cli)
