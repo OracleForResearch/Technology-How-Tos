@@ -81,9 +81,6 @@ b.  If the tools and versions required are very specific and have a much
 c.  Consult with Oracle for Research or Oracle cloud technical team for
     a solution that works best for your scenario.
 
-```{=html}
-<!-- -->
-```
 3.  **[Cloud marketplace images]** - These are [Oracle cloud partner
     images](https://cloudmarketplace.oracle.com/marketplace/en_US/productHomePage)
     developed by various third party vendors. These images can be
@@ -212,7 +209,7 @@ internet
 ![](images/image8.png)
 ![](images/image9.png)
 
-1.  Managing usage and costs - 
+### Managing usage and costs - 
 
 #### Usage control, automation and credits
 
@@ -268,9 +265,6 @@ below:
     > and efficient way to develop and manage automation. The following
     > links can help you on your journey to automation:
 
-```{=html}
-<!-- -->
-```
 a.  [OCI CLI Getting
     started](https://oracle.github.io/learning-library/oci-library/DevOps/OCI_CLI/OCI_CLI_HOL.html#practice-5-use-query-to-find-oracle-linux-image-id,-then-launch-a-compute-instance)
     and
@@ -283,9 +277,6 @@ d.  [OCI terraform provider
 e.  [Cluster in the
     cloud](https://cluster-in-the-cloud.readthedocs.io/en/latest/)
 
-```{=html}
-<!-- -->
-```
 5.  **[Estimating cluster size and instance scaling]** -- Estimate the
     > number of nodes for a specific shape is necessary for optimal use of the Oracle cloud shapes and clusters. Though the estimation
     > process can vary depending on project needs, a general practice is to estimate the total CPU/GPU hours, IO throughput and network
