@@ -114,23 +114,16 @@ Oracle offers customers and researchers a wide variety of tools and images to ma
     tests](https://github.com/cloudharmony/block-storage)
 5.  [NVIDIA Ampere architecture in
     depth](https://developer.nvidia.com/blog/nvidia-ampere-architecture-in-depth/#:~:text=The%20larger%20and%20faster%20L1,programmability%20and%20reduce%20software%20complexity.)
-6.  [Optimizing HPC with Oracle cloud on
-    Intel](https://blogs.oracle.com/cloud-infrastructure/optimize-your-high-performance-computing-with-oracle-cloud-on-intel)
+6.  [Optimizing HPC with Oracle cloud on Intel](https://blogs.oracle.com/cloud-infrastructure/optimize-your-high-performance-computing-with-oracle-cloud-on-intel)
 
 **Management and Troubleshooting**
-1.  [Monitoring and
-    telemetry](https://docs.cloud.oracle.com/en-us/iaas/Content/Monitoring/Concepts/monitoringoverview.htm)
-2.  [Hanging
-    connections](https://docs.cloud.oracle.com/en-us/iaas/Content/Network/Troubleshoot/connectionhang.htm)
-3.  [Getting started with cloud
-    shell](https://docs.cloud.oracle.com/en-us/iaas/Content/API/Concepts/cloudshellgettingstarted.htm)
+1.  [Monitoring and telemetry](https://docs.cloud.oracle.com/en-us/iaas/Content/Monitoring/Concepts/monitoringoverview.htm)
+2.  [Hanging connections](https://docs.cloud.oracle.com/en-us/iaas/Content/Network/Troubleshoot/connectionhang.htm)
+3.  [Getting started with cloud shell](https://docs.cloud.oracle.com/en-us/iaas/Content/API/Concepts/cloudshellgettingstarted.htm)
 
 **Usage, billing and credit control**
-1.  [Oracle cloud storage
-    costs](https://www.oracle.com/cloud/storage/pricing.html)
-2.  [Resource billing for stopped
-    instances](https://docs.cloud.oracle.com/en-us/iaas/Content/Compute/Tasks/restartinginstance.htm#resource-billing)
-3.  [Oracle cloud universal credit PaaS and IaaS service
-    descriptions](http://www.oracle.com/us/corporate/contracts/paas-iaas-universal-credits-3940775.pdf)
-4.  [Compute GPU price
-    list](https://www.oracle.com/cloud/price-list.html#compute-gpu)
+1.  [Oracle cloud storage costs](https://www.oracle.com/cloud/storage/pricing.html)
+2.  [Resource billing for stopped instances](https://docs.cloud.oracle.com/en-us/iaas/Content/Compute/Tasks/restartinginstance.htm#resource-billing)
+3.  [Oracle cloud universal credit PaaS and IaaS service descriptions](http://www.oracle.com/us/corporate/contracts/paas-iaas-universal-credits-3940775.pdf)
+4.  [Compute GPU price list](https://www.oracle.com/cloud/price-list.html#compute-gpu)
+5.  [OCI Cost estimator](https://www.oracle.com/cloud/cost-estimator.html)
