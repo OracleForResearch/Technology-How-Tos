@@ -8,7 +8,7 @@ This repository hosts the technical blogs for Oracle for Research.
 3. [Important considerations for setting up and Oracle cloud instance](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/Important%20Considerations.md)
 5. [Mounting shared block storage in a cluster](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/Mounting%20shared%20block%20storage.md)
 6. [SSH options for cloud access (upcoming)]
-7. [Setting up User Configuration and Organization structure](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/Setting-up-an=Org-structure.md)
+7. [**Setting up User Configuration and Organization structure**](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/Setting-up-an=Org-structure.md)
 7. [Identity federation and options (upcoming)]
 
 ### Architecture and automation
@@ -16,6 +16,7 @@ This repository hosts the technical blogs for Oracle for Research.
 2. [Cloud Bursting Architecture](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/CloudBursting.md)
 3. [Automation setup through Terraform Stacks](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/AutomationSetup.md)
 4. [Automation with OCI Command line interface](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/OCI-CLI.md)
+5. [**Kubernetes IaaS on GPU clusters (New!)**](https://github.com/rghosh9/Technical-HowTo-s/blob/main/k8s-on-oci.md)
 5. [Choosing the right data science platform (upcoming)]
 
 ### Performance and benchmarks 
@@ -27,7 +28,7 @@ This repository hosts the technical blogs for Oracle for Research.
 
 ### Image Repositories
 1. [Image Repositories](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/TechnicalRepositories.md)
-2. [Oracle for Research sandbox images](https://github.com/OracleForResearch/Research-Image-Sandbox)
+2. [**Oracle for Research sandbox images**](https://github.com/OracleForResearch/Research-Image-Sandbox)
 2. [Images - in the works (upcoming)]
 
 ### Useful Links
