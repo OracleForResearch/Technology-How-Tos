@@ -127,3 +127,4 @@ Oracle offers customers and researchers a wide variety of tools and images to ma
 3.  [Oracle cloud universal credit PaaS and IaaS service descriptions](http://www.oracle.com/us/corporate/contracts/paas-iaas-universal-credits-3940775.pdf)
 4.  [Compute GPU price list](https://www.oracle.com/cloud/price-list.html#compute-gpu)
 5.  [OCI Cost estimator](https://www.oracle.com/cloud/cost-estimator.html)
+6.  [OCI Security pricing](https://www.oracle.com/security/cloud-security/pricing/)
