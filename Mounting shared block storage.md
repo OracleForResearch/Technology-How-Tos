@@ -72,6 +72,5 @@ The disk /oradiskvdb should be mounted as shown above
 
 #### References
 
-1.  [Setting fstab options for block volumes using consistent device]
-    paths](https://docs.cloud.oracle.com/en-us/iaas/Content/Block/References/fstaboptionsconsistentdevicepaths.htm)
+1.  [Setting fstab options for block volumes using consistent device paths](https://docs.cloud.oracle.com/en-us/iaas/Content/Block/References/fstaboptionsconsistentdevicepaths.htm)
 2. [Creating OCI file systems](https://unix.stackexchange.com/questions/395777/how-to-clear-ext4-filesystem-of-partition-in-arch)
