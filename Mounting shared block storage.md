@@ -66,8 +66,12 @@ The disk /oradiskvdb should be mounted as shown above
     bigger files. [Link
     here](https://access.redhat.com/articles/3129891#:~:text=In%20general%2C%20Ext3%20or%20Ext4,write%20threads%20and%20bigger%20files.).
  12. Also note that the above steps are required for icsci based mounts and not for the paravirtualized based mounts
+ 13. To remove a filesystem use 
+ 
+ * sudo wipefs -a
 
 #### References
 
-1.  [Setting fstab options for block volumes using consistent device
+1.  [Setting fstab options for block volumes using consistent device]
     paths](https://docs.cloud.oracle.com/en-us/iaas/Content/Block/References/fstaboptionsconsistentdevicepaths.htm)
+2. [Creating OCI file systems](https://unix.stackexchange.com/questions/395777/how-to-clear-ext4-filesystem-of-partition-in-arch)
