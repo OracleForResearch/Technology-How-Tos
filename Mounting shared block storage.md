@@ -44,10 +44,11 @@ I/O size (minimum/optimal): 4096 bytes / 1048576 bytes
 8.  Create a Linux filesystem mount point as shown below and check it
     out if it correctly mounted
 
-*sudo mkdir /oradiskvdb*
-*mount /dev/oracleoci/oraclevdb /oradiskvdb*
-*sudo chmod 767 /oradiskvdb*
-*df --k*
+* sudo mkdir /oradiskvdb
+* sudo mkfs -t ext3 /dev/oracleoci/oraclevdb
+* mount /dev/oracleoci/oraclevdb /oradiskvdb
+* sudo chmod 767 /oradiskvdb
+* df -k
 
 ![](images/image6.png)
 
@@ -64,6 +65,7 @@ The disk /oradiskvdb should be mounted as shown above
     XFS shines when an application uses multiple read/write threads and
     bigger files. [Link
     here](https://access.redhat.com/articles/3129891#:~:text=In%20general%2C%20Ext3%20or%20Ext4,write%20threads%20and%20bigger%20files.).
+ 12. Also note that the above steps are required for icsci based mounts and not for the paravirtualized based mounts
 
 #### References
 
