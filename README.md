@@ -29,14 +29,9 @@ This repository hosts the technical blogs for Oracle for Research.
 3. [HPC Performance on Intel on Oracle Cloud](https://blogs.oracle.com/cloud-infrastructure/optimize-your-high-performance-computing-with-oracle-cloud-on-intel)
 4. [Monitoring Tools (upcoming)](https://github.com/rghosh9/Technical-HowTo-s/blob/main/MonitoringTools.md)
 
-### Image Repositories
-1. [Image Repositories](https://github.com/OracleForResearch/Technology-How-Tos/blob/main/TechnicalRepositories.md)
-2. [Oracle for Research sandbox images](https://github.com/OracleForResearch/Research-Image-Sandbox)
-2. [Images - in the works (upcoming)]
+### Technical Resources and Repo's
 
-### Tech Repos
-
-Follow these links for technical resources to get up and running:
+Follow these links to get up and running:
 
 #### 1. Filesystems
 
