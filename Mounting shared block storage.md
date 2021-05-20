@@ -55,26 +55,27 @@ Copy these commands & run them on BOTH instances.
 
 3.  Change the firewall on BOTH node.
 
-    sudo iptables -I INPUT -m state --state NEW -p tcp --destination-port 7777 -j ACCEPT
+```    sudo iptables -I INPUT -m state --state NEW -p tcp --destination-port 7777 -j ACCEPT
     sudo iptables -I INPUT -m state --state NEW -p tcp --destination-port 3260 -j ACCEPT
 
     sudo su - 
 
     iptables-save > /etc/iptables/rules.v4
+```
 
 ![image](https://user-images.githubusercontent.com/74327135/118630531-818f6c80-b7c6-11eb-864e-32f64ea8b77c.png)
 
 4.  On all nodes run.
-
-    sudo apt-get install ocfs2-tools
-
+```
+sudo apt-get install ocfs2-tools
+```
 ![image](https://user-images.githubusercontent.com/74327135/118630617-9835c380-b7c6-11eb-8150-115e39dde5f2.png)
 
 5.  Edit /etc/hosts on ALL nodes
  Place short node names & FQDN (retrieve from the oci console main page for each instance). The FQDN can be found from the console for each instance.
-
-    sudo vi /etc/hosts
-
+```
+sudo vi /etc/hosts
+```
 ![image](https://user-images.githubusercontent.com/74327135/118630697-b00d4780-b7c6-11eb-8b02-97a9947f6857.png)
 
 6.  edit the /etc/ocfs2/cluster.conf file on ALL nodes.
@@ -88,20 +89,22 @@ change this file on both nodes - ensuring IP address, node short names match you
     change 
     O2CB_ENABLE to true
     O2CB_BOOTCLUSTER=ocfs2
-  
+
+
 ![image](https://user-images.githubusercontent.com/74327135/118630868-d92dd800-b7c6-11eb-93ec-58ee2466e2d6.png)
 
 8.  Restart the OCFS services on ALL nodes.
-
-    sudo service o2cb restart
-    sudo service ocfs2 restart
+```    
+sudo service o2cb restart
+sudo service ocfs2 restart
+```
 
 ![image](https://user-images.githubusercontent.com/74327135/118630930-ecd93e80-b7c6-11eb-80b7-f9a041f76bd5.png)
 
 9.  Create  a directory on ALL nodes.
-
-    sudo mkdir /data-share
-
+```
+sudo mkdir /data-share
+```
 ![image](https://user-images.githubusercontent.com/74327135/118631025-04182c00-b7c7-11eb-9bee-d9c198d9a53e.png)
 
 10.  On one of the nodes make an OCFS2 file system on the block volume
